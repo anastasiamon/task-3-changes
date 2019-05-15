@@ -1,0 +1,76 @@
+.header {height: 70px;
+    width: 800px;
+    background-color: rgb(129, 174, 219);
+   border: 1px solid black;
+   margin:auto;
+   display:flex;
+   position:relative;
+   justify-content: space-between;
+
+}
+   .main-info {
+    padding: 10px 0px 10px 15px;    
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   }
+
+
+h3 {font-size: 25px;
+    margin:0px;
+    padding:0px;
+}
+
+.close {height:10px;
+width: 10px;
+margin-right: 10px;
+margin-top: 10px;
+ }
+ .date {margin-left: 20px;}
+.section {height: 600px;
+    width: 800px;
+    background-color: rgb(51, 85, 99);
+     border: 1px solid black;
+    margin:auto;}
+.initial { border: 1px solid black;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* text-align:center; */
+    /* line-height: 40px; */
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+  
+background-color: rgb(129, 174, 219);}
+.maininfo { display: inline-block; vertical-align: top; text-align: left;}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+  }
+.info {flex: 0 0 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.message {flex-grow: 1;
+    border-left: 1px solid whitesmoke;
+ padding: 10px 50px}
+.name {margin-left: 10px;}
+.person1 {
+    padding: 5px 20px;
+    text-align: justify;
+    line-height: 2;
+    background-color: rgb(99, 136, 185);
+    word-wrap: break-word;
+    }
+
+   .scroll {height: 600px; 
+    width: 800px; 
+    border: 1px solid grey; 
+    overflow-y: scroll;}
+    
+    .time {font-size: 14px;}
